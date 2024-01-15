@@ -19,8 +19,10 @@
 
 .nav div.logo a {
     text-decoration: none;
-    color: black;
-    font-size: 30px;
+    color: #b25d8b;
+    -webkit-text-stroke: 1.5px black;
+    font-size: 50px;
+    /* background-color: white; */
 }
 
 .nav div.logo a:hover {
@@ -50,7 +52,8 @@
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: black;
+    color: #b25d8b;
+    -webkit-text-stroke: 1px black;
     line-height: 65px;
     font-size: 30px;
 }
@@ -62,9 +65,10 @@
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/rose-header.jpeg);
+    background-image: url(../img/rose-background.jpg);
     background-position: center top;
     background-size: cover;
+    background-blend-mode: black;
 }
 
 .navTrigger {
@@ -72,7 +76,7 @@
 }
 
 .nav {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -351,7 +355,7 @@
 
 .affix {
     padding: 0;
-    background-color: rgba(192, 82, 82, 0.5);
+    background-color: rgba(122, 29, 78, 0.5);
 }
 
 
