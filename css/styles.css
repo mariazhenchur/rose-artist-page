@@ -7,6 +7,10 @@
     /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
+.container {
+    /* max-width: 1700px; */
+}
+
 .item {
     width: 320px;
     /* width: 100%; */
@@ -40,6 +44,14 @@
     padding-top: 70px;
 }
 
+.section3__name {
+    text-align: center;
+    font-size: 50px;
+    background-color: #b25d8b;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
 .cards {
     background-color: #b25d8b;
     text-align: center;
@@ -54,7 +66,8 @@
 
 .btn__music button {
     display: block;
-    margin: 0 auto 20px; /* Center horizontally and add margin at the bottom */
+    margin: 0 auto 20px;
+    /* Center horizontally and add margin at the bottom */
 }
 
 .btn__music {
@@ -77,7 +90,7 @@
     cursor: pointer;
     font-weight: bold;
     text-decoration: underline 2px;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
 }
 
 .btn__music button:hover {
@@ -148,4 +161,91 @@
         margin-left: 160px;
         /* padding-top: 50px; */
     }
+}
+
+.tour__table {
+    display: block; 
+}
+
+.tour {
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    color: #000000;
+    font-size: 15px;
+    background-color: #b25d8b;
+}
+
+.tour__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 10px;
+}
+
+.tour__row:hover {
+    background-color: #dc92b9;
+    transition: background 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.tour__description {
+    width: 65%;
+}
+
+.tour__arena {
+    display: flex;
+}
+
+.tour__arena-name {
+    width: 60%;
+}
+
+
+.tour__details {
+    display: block;
+}
+
+.tour__link {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.tour__table {
+    padding-left: 110px;
+    padding-right: 120px;
+    background-color: #b25d8b;
+    color: #000000;
+    font-size: 20px;
+}
+
+.tour__date {
+    font-weight: bold;
+}
+
+.tour__details {
+    opacity: 0.7;
+}
+
+.tour__link a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: #b25d8b;
+    position: relative;
+    transition: .3s ease-in all;
+    background-color: #000000;
+    padding: 14px 30px 10px;
+    border-radius: 34px;
+    border: 0;
+    text-decoration: none;
+}
+
+.tour__link a:hover {
+    transition: .3s ease-in all;
+    background-color: #dc92b9;
 }

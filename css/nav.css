@@ -26,7 +26,8 @@
 }
 
 .nav div.logo a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
+    transition: .3s ease-in all;
 }
 
 .nav div.main_list {
@@ -59,7 +60,8 @@
 }
 
 .nav div.main_list ul li a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
+    transition: .3s ease-in all;
 }
 
 .home {
