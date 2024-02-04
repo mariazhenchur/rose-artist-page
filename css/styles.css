@@ -92,6 +92,7 @@
     text-decoration: underline 2px;
     transition: background-color 0.3s ease;
     border: none;
+    outline: none;
 }
 
 .btn__music button:hover {
@@ -117,6 +118,7 @@
     margin-top: 30px;
     transition: background-color 0.3s ease;
     border: none;
+    outline: none;
 }
 
 
