@@ -17,6 +17,12 @@
     height: 320px;
 }
 
+.item__order:hover {
+    background-color: #b25d8b;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
 .music__img {
     width: 250px;
     /* width: 100%; */
@@ -223,6 +229,7 @@
     background-color: #b25d8b;
     color: #000000;
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .tour__date {
@@ -252,4 +259,133 @@
 .tour__link a:hover {
     transition: .3s ease-in all;
     background-color: #dc92b9;
+}
+
+.social__media {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.social__icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.item {
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+.legal {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    outline: none;
+}
+
+.legal__text {
+    text-decoration: none;
+    outline: none;
+    color: #b25d8b;
+}
+
+.legal__text:hover {
+    color: #dc92b9;
+    transition: .3s ease-in all;
+}
+
+.footer {
+    background-color: #000000;
+    color: #b25d8b;
+}
+
+.social__icon:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#popup {
+    background-color: #000000;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.popup__title {
+    padding: 30px 30px 30px 30px;
+    color: #b25d8b;
+}
+
+.input__field {
+    padding-bottom: 10px;
+}
+
+#registrationForm input,
+#registrationForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #b25d8b;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#registrationForm input::placeholder {
+    color: #000000; 
+}
+
+#closeButton {
+    color: #b25d8b;
+}
+
+#registrationForm button {
+    padding: 10px;
+    background-color: #b25d8b;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80px;
 }
