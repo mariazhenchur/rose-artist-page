@@ -88,7 +88,7 @@
     padding-right: 12em;
     padding-bottom: 1em;
     padding-left: 12em;
-    position: relative;
+    /* position: relative; */
     width: 100%;
     background-color: #b25d8b;
     color: black;
@@ -247,7 +247,7 @@
     letter-spacing: .06em;
     text-transform: uppercase;
     color: #b25d8b;
-    position: relative;
+    /* position: relative; */
     transition: .3s ease-in all;
     background-color: #000000;
     padding: 14px 30px 10px;
