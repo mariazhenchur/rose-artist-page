@@ -1,0 +1,33 @@
+.alert-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+h2,
+p,
+h3,
+h4,
+h5,
+a {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+}
+
+/* * {
+    background-color: #b25d8b;
+} */
+
+body,
+.container,
+.card {
+    background-color: #b25d8b;
+    color: black;
+}
+
+.navbar,
+.styling {
+    background-color: #dc92b9;
+}

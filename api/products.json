@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "-R- BLACK VINYL",
+        "image": "r-vinyl.png",
+        "description": "VINYL",
+        "price": 49.99
+    },
+    {
+        "id": "2",
+        "title": "-R- PHOTOBOOK",
+        "image": "r-photobook.png",
+        "description": "PHOTOBOOK",
+        "price": 45.99
+    },
+    {
+        "id": "3",
+        "title": "H&R SEASON'S GREETINGS",
+        "image": "seasons.png",
+        "description": "SEASON'S GREETINGS",
+        "price": 59.99
+    },
+    {
+        "id": "4",
+        "title": "-R- TOTE BAG",
+        "image": "rose-tote-bag.webp",
+        "description": "TOTE BAG",
+        "price": 20.99
+    },
+    {
+        "id": "5",
+        "title": "-R- PINK CREWNECK",
+        "image": "rose-pink-crewneck.webp",
+        "description": "CREWNECK",
+        "price": 60.99
+    }
+]
