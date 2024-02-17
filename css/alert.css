@@ -31,3 +31,23 @@ body,
 .styling {
     background-color: #dc92b9;
 }
+
+.btn-primary {
+    background-color: #df75ad;
+    border: none;
+    color: black;
+}
+
+.btn-primary {
+    --bs-btn-hover-bg: #dc92b9;
+    --bs-btn-active-bg: #dc92b9;
+    --bs-btn-hover-color: black;
+}
+
+.btn-info {
+    background-color: #ada8ab;
+    border: none;
+    --bs-btn-hover-bg: #cac7c8;
+    --bs-btn-active-bg: #cac7c8;
+    --bs-btn-hover-color: black;
+}

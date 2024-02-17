@@ -4,7 +4,7 @@
         "title": "-R- BLACK VINYL",
         "image": "r-vinyl.png",
         "description": "VINYL",
-        "price": 49.99
+        "price": 50.99
     },
     {
         "id": "2",
@@ -24,14 +24,28 @@
         "id": "4",
         "title": "-R- TOTE BAG",
         "image": "rose-tote-bag.webp",
-        "description": "TOTE BAG",
+        "description": "BLACK TOTE BAG",
         "price": 20.99
     },
     {
         "id": "5",
-        "title": "-R- PINK CREWNECK",
+        "title": "-R- CREWNECK",
         "image": "rose-pink-crewneck.webp",
-        "description": "CREWNECK",
+        "description": "PINK CREWNECK",
         "price": 60.99
+    },
+    {
+        "id": "6",
+        "title": "PINK VENOM TEE",
+        "image": "rose-tee.webp",
+        "description": "LONG SLEEVE TEE",
+        "price": 54.99
+    },
+    {
+        "id": "7",
+        "title": "-R- TEE",
+        "image": "rose-white-tee.webp",
+        "description": "WHITE TEE",
+        "price": 30.99
     }
 ]

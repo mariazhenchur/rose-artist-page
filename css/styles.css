@@ -4,16 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto Condensed', sans-serif; */
-}
-
-.container {
-    /* max-width: 1700px; */
 }
 
 .item {
     width: 320px;
-    /* width: 100%; */
     height: 320px;
 }
 
@@ -25,7 +19,6 @@
 
 .music__img {
     width: 250px;
-    /* width: 100%; */
     height: 250px;
 }
 
@@ -33,6 +26,13 @@
 .btn__music {
     align-items: center;
     text-align: center;
+}
+
+.btn__music {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section__name {
@@ -73,23 +73,12 @@
 .btn__music button {
     display: block;
     margin: 0 auto 20px;
-    /* Center horizontally and add margin at the bottom */
-}
-
-.btn__music {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .music__button {
     padding-top: 1em;
-    padding-right: 12em;
     padding-bottom: 1em;
-    padding-left: 12em;
-    /* position: relative; */
-    width: 100%;
+    width: 60%;
     background-color: #b25d8b;
     color: black;
     font-size: 15px;
@@ -101,6 +90,8 @@
     outline: none;
 }
 
+
+
 .btn__music button:hover {
     color: rgb(226, 184, 31);
     transition: color 0.5s ease;
@@ -108,7 +99,7 @@
 
 .music__title {
     color: #b25d8b;
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
@@ -127,60 +118,12 @@
     outline: none;
 }
 
-
-@media (min-width: 768px) {
-    .cards {
-        padding-left: 50px;
-        padding-right: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .music__img {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-@media (min-width: 998px) {
-    .cards {
-        padding-left: 50px;
-        padding-right: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .music__img {
-        width: 520px;
-        height: 520px;
-    }
-
-    .music__section {
-        display: flex;
-    }
-
-    .music__img {
-        margin-left: 120px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .btn__music {
-        margin-left: 160px;
-        /* padding-top: 50px; */
-    }
-}
-
 .tour__table {
-    display: block; 
+    display: block;
 }
 
 .tour {
     text-align: center;
-    display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: space-around;
     color: #000000;
@@ -189,7 +132,6 @@
 }
 
 .tour__row {
-    display: flex;
     justify-content: space-between;
     padding: 14px 10px;
 }
@@ -201,15 +143,11 @@
 }
 
 .tour__description {
-    width: 65%;
-}
-
-.tour__arena {
-    display: flex;
+    width: 100%;
 }
 
 .tour__arena-name {
-    width: 60%;
+    width: 100%;
 }
 
 
@@ -218,14 +156,13 @@
 }
 
 .tour__link {
-    display: flex;
     -webkit-box-align: center;
     align-items: center;
 }
 
 .tour__table {
-    padding-left: 110px;
-    padding-right: 120px;
+    padding-left: 60px;
+    padding-right: 80px;
     background-color: #b25d8b;
     color: #000000;
     font-size: 20px;
@@ -238,16 +175,15 @@
 
 .tour__details {
     opacity: 0.7;
+    margin-bottom: 20px;
 }
 
 .tour__link a {
-    font-weight: 700;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 16px;
     letter-spacing: .06em;
     text-transform: uppercase;
     color: #b25d8b;
-    /* position: relative; */
     transition: .3s ease-in all;
     background-color: #000000;
     padding: 14px 30px 10px;
@@ -279,17 +215,19 @@
 }
 
 .item:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
     cursor: pointer;
 }
 
 .legal {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
     text-decoration: none;
     outline: none;
+    align-items: center;
 }
 
 .legal__text {
@@ -309,7 +247,7 @@
 }
 
 .social__icon:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -326,6 +264,7 @@
     animation: fadeIn 0.5s ease-in-out;
 }
 
+
 #closeButton {
     position: absolute;
     top: 10px;
@@ -337,6 +276,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -372,7 +312,7 @@
 }
 
 #registrationForm input::placeholder {
-    color: #000000; 
+    color: #000000;
 }
 
 #closeButton {
@@ -388,4 +328,151 @@
     border-radius: 5px;
     cursor: pointer;
     margin-left: 80px;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .music__img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .music__button {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        width: 70%;
+    }
+
+    .music__title {
+        font-size: 30px;
+    }
+
+    .tour__row {
+        display: flex;
+    }
+
+    .tour {
+        display: flex;
+    }
+
+    .tour__arena {
+        display: flex;
+    }
+
+    .tour__link {
+        display: flex;
+        font-weight: 700;
+    }
+
+    .tour__details {
+        margin-bottom: 0px;
+    }
+
+    .tour__table {
+        padding-left: 110px;
+        padding-right: 120px;
+    }
+
+    .tour__description {
+        width: 65%;
+    }
+
+    .tour__arena-name {
+        width: 60%;
+    }
+}
+
+@media (min-width: 998px) {
+    .cards {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .music__img {
+        width: 520px;
+        height: 520px;
+    }
+
+    .music__section {
+        display: flex;
+    }
+
+    .music__img {
+        margin-left: 120px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .btn__music {
+        margin-left: 160px;
+    }
+
+    .music__button {
+        padding-top: 1em;
+        padding-right: 12em;
+        padding-bottom: 1em;
+        padding-left: 12em;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .music__title {
+        font-size: 30px;
+    }
+
+    .tour {
+        display: flex;
+    }
+
+    .tour__row {
+        display: flex;
+    }
+
+    .tour__arena {
+        display: flex;
+    }
+
+    .tour__link {
+        display: flex;
+    }
+
+    .tour__link a {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .tour__details {
+        margin-bottom: 0px;
+    }
+
+    .tour__table {
+        padding-left: 110px;
+        padding-right: 120px;
+    }
+
+    .tour__description {
+        width: 65%;
+    }
+
+    .tour__arena-name {
+        width: 60%;
+    }
+
+    .legal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
